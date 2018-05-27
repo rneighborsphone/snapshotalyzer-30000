@@ -1,0 +1,827 @@
+    1  ip addr
+    2  cd /etc
+    3  cd sysconfig
+    4  cd network-scripts
+    5  ls if*
+    6  ls ifcfg*
+    7  vi ifcfgen*
+    8  clear
+    9  su -
+   10  su 
+   11  ssh ssh -i mykey.pem ec2-user@ec2-54-89-238-52.compute-1.amazonaws.com
+   12  sudo su - 
+   13  id
+   14  su - root
+   15  su -
+   16  su - 
+   17  set -o vi
+   18  su - 
+   19  sudo su -
+   20  su -
+   21  ssh 192.168.17.132
+   22  k
+   23  set -o vi
+   24  ssh -l hscroot 192.168.17.132
+   25  ip a |grep -i net
+   26  exit
+   27  ps aux |grep vnc
+   28  sudo ls
+   29  su - 
+   30  id
+   31  exit
+   32  which git
+   33  su -
+   34  ls
+   35  mkdir code
+   36  cd code
+   37  mkdir atom
+   38  cd atom
+   39  cp /tmp/Atom* .
+   40  ls
+   41  chmod 755 AtomInstall.sh
+   42  bash AtomInstall.sh
+   43  id
+   44  grep wheel /etc/groups
+   45  grep wheel /etc/group
+   46  . /etc/profile
+   47  sudo ls
+   48  visudo
+   49  exit
+   50  clear
+   51  ls
+   52  vmstat 3 5
+   53  yum group list
+   54  sudo ls
+   55  ls
+   56  cd cod
+   57  cd code
+   58  ls
+   59  cd atom
+   60  ls
+   61  clear
+   62  ls
+   63  bash AtomInstall.sh
+   64  ls
+   65  yum install -y atom.x86_64.rpm
+   66  set -o vi
+   67  sudo yum install -y atom.x86_64.rpm
+   68  yum list atom.86
+   69  yum local  list atom.86
+   70  sudo yum install -y atom.x86_64.rpm
+   71  ls
+   72  vi Atom*
+   73  vi /etc/yum.repos.d
+   74  ls /etc/yum.repos.d
+   75  vi  /etc/yum.repos.d/atom.repo
+   76  yum repolist
+   77  sudo yum --enablerepo=Atom/x86_64  list
+   78  sudo yum --enablerepo=Atom  list
+   79  sudo yum --enablerepo=Atom  list |grep Atom
+   80  sudo yum --enablerepo=Atom  install atom.x86_64
+   81  which atom
+   82  atom
+   83  q
+   84  sudo yum   install atom.x86_64
+   85  sudo yum   remove atom.x86_64
+   86  sudo yum   install atom.x86_64 -y
+   87  atom
+   88  sudo yum   remove atom.x86_64
+   89  sudo yum --enablerepo=Atom  list |grep Atom
+   90  sudo yum --enablerepo=Atom  list |grep Atom
+   91  sudo yum   install atom-beta.x86_64 -y
+   92  atom
+   93  which atom
+   94  which atom-beta
+   95  atom-beta
+   96  su -
+   97  sudo yum   install atom-beta.x86_64 -y
+   98  atom-beta
+   99  sudo yum   remove  atom-beta.x86_64 -y
+  100  sudo yum   remove  atom.x86_64 -y
+  101  sudo yum --enablerepo=Atom  list |grep Atom
+  102  sudo yum   install atom.x86_64 -y
+  103  atom
+  104  which atom
+  105  sudo reboot
+  106  ls
+  107  cd code
+  108  ls
+  109  atom
+  110  which atom
+  111  atom
+  112  ls
+  113  cd code
+  114  ls
+  115  atom
+  116  exit
+  117  su 
+  118  atom
+  119  xhost +
+  120  atom
+  121  sudo su -
+  122  atom &
+  123  atom
+  124  which git
+  125  cd code
+  126  ls
+  127  cd /etc
+  128  cd sysconfig
+  129  ls
+  130  ls *vnc*
+  131  sudo yum list tigervnc
+  132  yum -y install tigervnc-server tigervnc
+  133  set -o vi
+  134  sudo yum -y install tigervnc-server tigervnc
+  135  vncpasswd
+  136  cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service
+  137  sudo cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service
+  138  cd /etc/systemd
+  139  ls
+  140  ls vnc*
+  141  cd system
+  142  ls
+  143  ls vnc*
+  144  sudo vi vnc*
+  145  sudo systemctl daemon-reload
+  146  sudo systemctl enable vncserver@:1.service
+  147  ls vnc*
+  148  sudo vi vncserver@:1.service
+  149  sudo systemctl enable vncserver@:1.service
+  150  sudo systemctl daemon-reload
+  151  sudo systemctl enable vncserver@:1.service
+  152  sudo vi vncserver@:1.service
+  153  sudo getsesttus
+  154  sestatus
+  155  getenforce
+  156  setenforce 0
+  157  sudo setenforce
+  158  sudo setenforce 0
+  159  sudo systemctl enable vncserver@:1.service
+  160  ls /etc/se*
+  161  sudo vi vncserver@:1.service
+  162  sudo systemctl enable vncserver@:1.service
+  163  sudo vi vncserver@:1.service
+  164  sudo systemctl enable vncserver@:1.service
+  165  sudo systemctl daemon-reload
+  166  sudo systemctl enable vncserver@:1.service
+  167  sudo systemctl start  vncserver@:1.service
+  168  ip a |grep net
+  169  iptables -L
+  170  sudo iptables -L
+  171  sudo systemctl stop firewalld
+  172  sudo iptables -L
+  173  sudo systemctl disable firewalld 
+  174  sudo vi vncserver@:1.service
+  175  sudo systemctl daemon-reload
+  176  sudo systemctl restart  vncserver@:1.service
+  177  atom 
+  178  which git
+  179  pwd
+  180  cd code
+  181  ls
+  182  cd atom
+  183  ls
+  184  atom
+  185  su -
+  186  firefox &
+  187  yum search firefox
+  188  which firefox
+  189  sudo yum install firefox.x86_64 -y
+  190  firefox &
+  191  git remote -v
+  192  pwd
+  193  cd code
+  194  ls
+  195  cd atom
+  196  ls
+  197  cd ..
+  198  pwd
+  199  git clone https://github.com/rneighborsphone/puppet.git
+  200  ls
+  201  cd puppet
+  202  ls
+  203  cd .ssh
+  204  ls
+  205  ssh-keygen -t rsa
+  206  ls
+  207  clear
+  208  ls
+  209  cat id_rsa.pub
+  210  firefox &
+  211  free
+  212  id
+  213  df
+  214  pwd
+  215  ls
+  216  cd Downloads
+  217  ls
+  218  file python-for-beginners-0d1418b8-ca1f-4d2f-82a1-890b98b5b505.py
+  219  set -o vi
+  220  vi  python-for-beginners-0d1418b8-ca1f-4d2f-82a1-890b98b5b505.py
+  221  clear
+  222  ls
+  223  free
+  224  top
+  225  which pip3
+  226  which pip
+  227  pwd
+  228  dir
+  229  ls ../code
+  230  mkdir robin-acloud
+  231  cd robin-acloud
+  232  ls
+  233  git init
+  234  git clone https://github.com/robin-acloud/find-close-meteorites.git
+  235  ls
+  236  ls -al
+  237  cd fi*
+  238  ls
+  239  cd meeors
+  240  cd meteors
+  241  ls
+  242  atom find_meteors.py
+  243  pwd
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  ls
+  248  pwd
+  249  cd ../code
+  250  ls
+  251  cd ..
+  252  ls
+  253  cd Downloads
+  254  ls
+  255  mv robin-acloud ../code
+  256  cd ../code
+  257  ls
+  258  mkdir acloudguru
+  259  cd acloudguru
+  260  ls
+  261  git clone git@github.com:rneighborsphone/find-close-meteorites.git
+  262  ls
+  263  cd find*
+  264  ls
+  265  ls -al
+  266  vi README
+  267  ljj
+  268  clear
+  269  ls
+  270  ls -al
+  271  cat READ*
+  272  ls ../../
+  273  ls -al ../../robin-acloud
+  274  clear
+  275  set -o vi
+  276  ls -al ../../robin-acloud
+  277  cp ../../robin-acloud/find-* .
+  278  ls
+  279  cp ../../robin-acloud/find-* .
+  280  ls  ../../robin-acloud/find-* .
+  281  ls  ../../robin-acloud/meteors/find-* .
+  282  clear
+  283  ls  ../../robin-acloud/meteors/find-* .
+  284  ls  ../../robin-acloud/meteors/
+  285  pwd
+  286  cd ~
+  287  ls
+  288  cd code
+  289  ls
+  290  cd robi*
+  291  ls
+  292  cd find*
+  293  ls
+  294  clear
+  295  ls
+  296  cd meteors
+  297  ls
+  298  pwd
+  299  cd `
+  300  cd ~
+  301  cd code
+  302  ls
+  303  cd acloudguru
+  304  ls
+  305  cd find*
+  306  ls
+  307  clear
+  308  ls /home/rneighbors/code/robin-acloud/find-close-meteorites/meteors
+  309  cp  /home/rneighbors/code/robin-acloud/find-close-meteorites/meteors .
+  310  ls
+  311  ls /home/rneighbors/code/robin-acloud/find-close-meteorites/meteors
+  312  ls /home/rneighbors/code/robin-acloud/find-close-meteorites/meteors/find*
+  313  clear
+  314  ls /home/rneighbors/code/robin-acloud/find-close-meteorites/meteors/find*
+  315  pwd
+  316  cp /home/rneighbors/code/robin-acloud/find-close-meteorites/meteors/find_meteors.py .
+  317  ls
+  318  vi find*
+  319  ls
+  320  git status
+  321  clear
+  322  git status
+  323  which python
+  324  ls /bin/python3
+  325  python -v
+  326  clear
+  327  man python
+  328  python -V
+  329  rpm -qa |grep python
+  330  clear
+  331  ls
+  332  vi README.md
+  333  git remote -v
+  334  git status
+  335  git add find_meteors.py README.md
+  336  clear
+  337  git status
+  338  git commit
+  339  git commit -M "find_meteor.py uses requests and data from NASA to find meteor landing sites"
+  340  r
+  341  ear
+  342  clear
+  343  git commit -m "find_meteor.py uses requests and data from NASA to find meteor landing sites"
+  344  git config --global user.name Richard Neighbors
+  345  git config --global user.email rneighbors@yahoo.com
+  346  git commit --amend --reset-author
+  347  clear
+  348  ls
+  349  git log
+  350  git status
+  351  claear
+  352  clear
+  353  git status
+  354  git log
+  355  clear
+  356  git log
+  357  git origin master
+  358  git push orgin master
+  359  clear
+  360  git push orgin mster
+  361  ls
+  362  git push
+  363  clear
+  364  git push
+  365  git orgin
+  366  git -v
+  367  git
+  368  clear
+  369  g
+  370  clear
+  371  git status
+  372  git remot
+  373  tet remote
+  374  get remote
+  375  git remote orgin
+  376  clear
+  377  git remote show orgin
+  378  git remote -v
+  379  yum update -y
+  380  sudo yum update -y
+  381  . /home/rneighbors/.local/share/virtualenvs/find-close-meteorites-Snw36GPm/bin/activate
+  382  exit
+  383  cat id_rsa.pub
+  384  ls /usr/bin/py*
+  385  python -V
+  386  python2 -V
+  387  sudo yum search yum-utils
+  388  sudo yum search python3
+  389  set -o vi
+  390  sudo yum search python3.
+  391  sudo yum install python3
+  392  which gcc
+  393  cd /opt
+  394  ls
+  395  cd src
+  396  mkdir src
+  397  sudo mkdir src
+  398  sudo cd src
+  399  ls
+  400  ls rh
+  401  wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
+  402  sudo wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
+  403  tar xzf Python-3.6.5.tgz
+  404  sudo tar xzf Python-3.6.5.tgz
+  405  sudo cd Python-3.6.5
+  406  ls
+  407   cd Python-3.6.5
+  408  ls
+  409  pdw
+  410  pwd
+  411  ls
+  412  ./configure --enable-optimizations
+  413  sudo ./configure --enable-optimizations
+  414  make altinstall 
+  415  sudo make altinstall 
+  416  which pip
+  417  pip -V
+  418  ls /usr/bin/pyth*
+  419  sudo make altinstall 
+  420  gcc -V
+  421  gcc -v
+  422  which zip
+  423  sudo yum grouplis
+  424  sudo yum grouplist
+  425  sudo yum install "Development Tools"
+  426  ls set*
+  427  vi setup.py
+  428  yum groupinfo -v "Development Tools"
+  429  yum groupinstall  "Development Tools"
+  430  yum group install  "Development Tools"
+  431  sudo yum group list
+  432  sudo yum groupinfo "Development Tools"
+  433  sudo yum groups install  "Development Tools"
+  434  sudo yum groups install  "Development Tools" -y
+  435  sudo yum groups install   development  -y
+  436  sudo yum groupinstall   development  -y
+  437  l
+  438  sudo make altinstall 
+  439  yum install zlib
+  440  rpm -qa |grep gzipstre
+  441  yum list |grep gzipst
+  442  sudo yum list python-gzipstream
+  443  yum install python-gzipstream.noarc
+  444  sudo yum install python-gzipstream.noarc
+  445  sudo yum searh python-gzipstream
+  446  sudo yum search  python-gzipstream
+  447  ls /usr/local/bin
+  448  /usr/local/bin/python3.6
+  449  /usr/local/bin/python3.6 -V
+  450  ls /usr/local/bin
+  451  yum search python36
+  452  /usr/local/bin/python3.6 install pip3 
+  453  yum search pip
+  454  which pip3
+  455  ls
+  456  ls /usr/local/bin/pip*
+  457  ls /usr/local/bin
+  458  sudo yum install yum-tools
+  459  sudo yum install yum-utils
+  460  sudo yum  install python36u-pip
+  461  sudo yum install python36
+  462  yum list python3.6
+  463  sudo yum install python3.6
+  464  yum install gcc openssl-devel bzip2-devel
+  465  sudo yum install gcc openssl-devel bzip2-devel
+  466  sudo ./configure --enable-optimizations
+  467  sudo make altinstall 
+  468  ls /usr/local/bin
+  469  cd ..
+  470  ls
+  471  id
+  472  su -
+  473  cd ~
+  474  ls
+  475  cd code
+  476  ls
+  477  cd acl*
+  478  ls
+  479  cd fi*
+  480  ls
+  481  vi README.md
+  482  git status
+  483  ls -al
+  484  vi .gitignore
+  485  git status
+  486  git add .gitignore
+  487  git add README.md Pipfile
+  488  git commit -m "Use pipenv to manage dependencies"
+  489  git status
+  490  git log
+  491  ls
+  492  mkdir meteors
+  493  git mv find_meteors.py meteors/
+  494  git status
+  495  pwd
+  496  ls
+  497  /usr/local/bin/pipenv run /meteors/find_meteors.py
+  498  ls
+  499  ls meteors
+  500  /usr/local/bin/pipenv run python /meteors/find_meteors.py
+  501  ls /meteors
+  502  ls
+  503  ls meteors
+  504  /usr/local/bin/pipenv run python meteors/find_meteors.py
+  505  /usr/local/bin/pipenv run python meteors/find_meteors.py
+  506  ls
+  507  vi README.md
+  508  git status
+  509  git commit -m " moved find_meteors.py to meteors directory updated pipenv run path to reflect the new location of the file"
+  510  git status
+  511  git add README.md
+  512  get status
+  513  git status
+  514  git commit -m "Moved find_meteors into it's own director and updated the run path to the file"
+  515  git status 
+  516  git push
+  517  ls
+  518  cd meteors
+  519  ls
+  520  vi find*
+  521  ls /usr/local/bin
+  522  /usr/local/bin/pipenv install -d ipython
+  523  pipenv shell
+  524  pipenv run ipython
+  525  pwd
+  526  ls
+  527  pipenv run ipython
+  528  pwd
+  529  ls
+  530  pipenv run ipython
+  531  ls
+  532  pipenv run ipython
+  533  which ipytho
+  534  which ipython
+  535  ls /usr/local/bin
+  536  ls
+  537  ls -al
+  538  ls ../
+  539  cd ../../
+  540  pwd
+  541  ls
+  542  cd find*
+  543  ls
+  544  cd me*
+  545  ls
+  546  pwd
+  547  pipenv run ipython
+  548  ls
+  549  touch init.py
+  550  pipenv run ipython
+  551  ls
+  552  mv find_metores.py.org find_meteors.py
+  553  ls
+  554  cp find_meteors.py.org find_meteors.py
+  555  pwd
+  556  ls
+  557  pipenv run python find_meteors.py
+  558  ls
+  559  vi find_meteors.py
+  560  pipenv run ipython
+  561  pipenv run python find_meteors.py
+  562  ls
+  563  cp find_meteors.py.org find_meteors.py
+  564  pipenv run python find_meteors.py
+  565  git status
+  566  ls
+  567  rm *.org
+  568  ls
+  569  git status
+  570  cat Pipfile
+  571  ls
+  572  cat ../Pipefile
+  573  cat ../Pipfile
+  574  git status
+  575  git commit -am "Commited Pipfile which has been updated by Python automaticall"
+  576  git status
+  577  git push
+  578  atom
+  579  cd code
+  580  ls
+  581  cd acl*
+  582  ls
+  583  cd find*
+  584  ls
+  585  git status
+  586  ls
+  587  vi find*
+  588  ls /usr/local/bin
+  589  pipenv --three
+  590  python3.6 install pipenv
+  591  pip3.6 install pipenv
+  592  set -o vi
+  593  pip3.6 --upgrade pip 
+  594  pip3.6 --upgrade pip3.6
+  595  /usr/local/bin/pip3.6 --upgrade pip3.6
+  596  /usr/local/bin/pip3.6 --upgrade /usr/local/bin/pip3.6
+  597  ls /usr/local/bin
+  598  pip3.6 install pipenv
+  599  pwd
+  600  sudo pip3.6 install pipenv
+  601  sudo /usr/local/bin/pip3.6 install pipenv
+  602  ls /usr/local/bin
+  603  which pipenv
+  604  pipenv --three
+  605  /usr/local/bin/pipenv --three
+  606  /usr/local/bin/pipenv --ptython /usr/local/bin/python3.6 --three
+  607  /usr/local/bin/pipenv --python /usr/local/bin/python3.6 --three
+  608  ls
+  609  /usr/local/bin/pipenv --python /usr/local/bin/python3.6 --three
+  610  python -V
+  611  ls /usr/local/bin
+  612  /usr/local/bin/pyenv-3.6
+  613  /usr/local/bin/pipenv
+  614  /usr/local/bin/pipenv shell
+  615  sudo yum update -y
+  616  . /home/rneighbors/.local/share/virtualenvs/find-close-meteorites-Snw36GPm/bin/activate
+  617  python -V
+  618  set -o vi
+  619  ls
+  620  pipenv run "python find_meteors.py"
+  621  ls
+  622  pipenv run "python ./find_meteors.py"
+  623  ls
+  624  cat Pipfile
+  625  ls
+  626  /usr/local/bin/pipenv run "python ./find_meteors.py"
+  627  clear
+  628  ls
+  629  cat find*
+  630  ls
+  631  r
+  632  clear
+  633  ls
+  634  /usr/local/bin/pipenv run "python find_meteors.py"
+  635  /usr/local/bin/pipenv run "python3.6  find_meteors.py"
+  636  /usr/local/bin/pipenv run "python  find_meteors.py"
+  637  /usr/local/bin/pipenv run python  find_meteors.py
+  638  /usr/local/bin/pipenv install requests 
+  639  /usr/local/bin/pipenv install requests 
+  640  /usr/local/bin/pipenv run python  find_meteors.py
+  641  ls
+  642  cat Pipfile
+  643  ls
+  644  cd meteors
+  645  ls
+  646  rm init.py
+  647  atom find_meteors.py
+  648  cp find_meteors.py find_meteors.py.org
+  649  ssh -i "AcloudGuru.pem" ec2-user@ec2-54-89-177-176.compute-1.amazonaws.com
+  650  pwd
+  651  ls
+  652  su - root
+  653  su 
+  654  ls
+  655  ssh -i "AcloudGuru.pem" ec2-user@ec2-54-89-177-176.compute-1.amazonaws.com
+  656  ssh 54.89.177.176
+  657  ssh -i "AcloudGuru.pem" ec2-user@ec2-34-201-109-49.compute-1.amazonaws.com
+  658  clear
+  659  ssh ssh -i "AcloudGuru.pem" ec2-user@ec2-34-201-109-49.compute-1.amazonaws.com
+  660  set -o vi
+  661  ssh -i "AcloudGuru.pem" ec2-user@ec2-34-201-109-49.compute-1.amazonaws.com
+  662  ssh  ec2-user@ec2-34-201-109-49.compute-1.amazonaws.com
+  663  clear
+  664  sudo iptables -L
+  665  clear
+  666  sudo systemctl stop firewalld
+  667  ssh  ec2-user@ec2-34-201-109-49.compute-1.amazonaws.com
+  668  iptables -L
+  669  sudo iptables -L
+  670  clear
+  671  systemctl status firewalld
+  672  systemctl disable firewalld.service
+  673  sudo systemctl disable firewalld.service
+  674  ssh  ec2-user@ec2-34-201-109-49.compute-1.amazonaws.com
+  675  clear
+  676  sudo systemctl disable firewalld.service
+  677  sudo systemctl status firewalld.service
+  678  sudo iptables -L
+  679  clear
+  680  c
+  681  ls
+  682  su - 
+  683  ssh ec2-52-23-165-133.compute-1.amazonaws.com
+  684  ls -al
+  685  clear
+  686  ls A*
+  687  ls -al A*
+  688  ping 54.208.15.223
+  689  ssh 54.208.15.223
+  690  pwd
+  691  ls
+  692   
+  693  clear
+  694  ssh -v -i "id_rsa.pem" ec2-user@ec2-54-208-15-223.compute-1.amazonaws.com
+  695  ssh -v -i "id_rsa.pem" @ec2-54-208-15-223.compute-1.amazonaws.com
+  696  clear
+  697  ssh -v -i "id_rsa.pem" ec2-54-208-15-223.compute-1.amazonaws.com
+  698  ssh -v  ec2-54-208-15-223.compute-1.amazonaws.com
+  699  ssh ssh  ec2-user@ec2-54-89-238-52.compute-1.amazonaws.com
+  700  clear
+  701  ssh  ec2-user@ec2-54-89-238-52.compute-1.amazonaws.com
+  702  ssh  ec2-54-89-238-52.compute-1.amazonaws.com
+  703  cd !
+  704  cd ~
+  705  clear
+  706  ls
+  707  cd .ssh
+  708  ls
+  709  pwd
+  710  ls
+  711  cat id_rsa.pub
+  712  clear
+  713  ssh ec2-54-234-133-89.compute-1.amazonaws.com
+  714  ssh -v  ec2-54-234-133-89.compute-1.amazonaws.com
+  715  clear
+  716  ssh  ec2-user@ec2-54-234-133-89.compute-1.amazonaws.com
+  717  ssh -v   ec2-user@ec2-54-234-133-89.compute-1.amazonaws.com
+  718  ip a |grep inet
+  719  clear
+  720  ls
+  721  pwd
+  722  cd ..
+  723  ls
+  724  ls -al
+  725  c
+  726  clear
+  727  ls ne*
+  728  chmod 400 newKey.pem
+  729  ls -al ne*
+  730  ssh -i "newKey.pem" ec2-user@ec2-52-23-233-132.compute-1.amazonaws.com
+  731  ping 54.82.164.178
+  732  ssh 54.82.164.178
+  733  ssh -v  54.82.164.178
+  734  clear
+  735  ssh -v  54.82.164.178
+  736  clear
+  737  ssh -v  54.82.164.178
+  738  clear
+  739  ssh -i "newKey.pem" ec2-user@ec2-54-82-164-178.compute-1.amazonaws.com
+  740  ls
+  741  cp newKey.pem .ssh
+  742  ssh ec2-user@ec2-54-82-164-178.compute-1.amazonaws.com
+  743  cd .ssh
+  744  ls
+  745  ls -al
+  746  clear
+  747  ls -al
+  748  cd ..
+  749  ssh -i "newKey.pem" ec2-user@ec2-54-82-164-178.compute-1.amazonaws.com
+  750  clear
+  751  ls
+  752  rm newKey.pem
+  753  ssh -i "newKey.pem" ec2-user@ec2-54-82-164-178.compute-1.amazonaws.com
+  754  ssh -i ".ssh/newKey.pem" ec2-user@ec2-54-82-164-178.compute-1.amazonaws.com
+  755  pwd
+  756  cd code
+  757  ls
+  758  cd acl*
+  759  ls
+  760  git clone 
+  761  git clone git@github.com:rneighborsphone/snapshotalyzer-30000.git
+  762  ls
+  763  cd sna*
+  764  ls
+  765  cat README.md
+  766  which aws
+  767  aws configure --profile shotty
+  768  ls /usr/local/bin/p*
+  769  /usr/local/bin/pip3.6 install pipenv
+  770  which pipenv
+  771  pipenv --three
+  772  /usr/local/bin/pipenv --three
+  773  /usr/local/bin/pipenv  --python /usr/local/bin/python3.6 --three
+  774  ls
+  775  pipenv install boto3
+  776  pipen install -d ipython
+  777  pipenv install -d ipython
+  778  pipenv run ipython
+  779  mkdir shotty
+  780  cd shotty
+  781  vi shotty
+  782  ls
+  783  mv shotty shotty.py
+  784  which pipenv
+  785  cd ..
+  786  pipenv run python shotty/shotty.py
+  787  ls
+  788  cd shotty
+  789  ls
+  790  vi shotty.py
+  791  cd ..
+  792  pipenv run python shotty.py
+  793  pipenv run python shotty/shotty.py
+  794  cd shotty
+  795  ls
+  796  vi shotty.pl
+  797  vi shotty.py
+  798  pwd
+  799  cd ..
+  800  pipenv run python shotty/shotty.py
+  801  cd shotty
+  802  vi shotty
+  803  cd shotty
+  804  pwd
+  805  ls
+  806  vi shotty.py
+  807  cd ..
+  808  pipenv run python shotty/shotty.py
+  809  cd shotty
+  810  vi shotty.py
+  811  pwd
+  812  cd ..
+  813  pipenv run python shotty/shotty.py
+  814  ls
+  815  vi README.md
+  816  git status
+  817  ls -al
+  818  vi .gitignore
+  819  git status
+  820  git add Pipfile shotty/
+  821  git status
+  822  git add .gitignore README.md
+  823  git status
+  824  git commit -m "Firs draft of shotty script - Used to list instances on AWS"
+  825  git push
+  826  history
+  827  history >/tmp/history
